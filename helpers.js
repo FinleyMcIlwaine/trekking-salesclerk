@@ -95,11 +95,30 @@ function printResult(result) {
   console.log("     Min. cost: " + result[1]);
 }
 
+/**
+ * Prints the computation time delta (in milliseconds) in a friendly format.
+ * @param {*} delta Time in milliseconds
+ */
+function printRunTime(delta) {
+  if (delta < 1000) {
+    console.log("     Computed in " + delta + " milliseconds! (" + 
+    (Math.round(delta/1000 * 100)/100) + " seconds)\n");
+  }
+  else if (delta < 60000) {
+    console.log("     Computed in " + (Math.round(delta/1000*100)/100) + " seconds!\n");
+  }
+  else {
+    console.log("     Computed in " + (Math.round(delta/60000 * 100)/100) + 
+    " minutes! (" + (Math.round(delta/1000*100)/100) + " seconds)\n");
+  }
+}
+
 module.exports = {
   getCost: getCost,
   printGraph: printGraph,
   generateRandomGraph: generateRandomGraph,
   generateRandomPath: generateRandomPath,
   generateGreedyPath: generateGreedyPath,
-  printResult: printResult
+  printResult: printResult,
+  printRunTime: printRunTime
 }
