@@ -1,3 +1,9 @@
+// Finley McIlwaine
+// W#: 08133841
+// COSC3020 Professor Kotthoff
+// Assignment 3
+// 5/3/2019
+
 /**
  * Returns the total cost of path over graph g.
  * @param {*} g    Cost matrix

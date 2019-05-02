@@ -1,10 +1,11 @@
 // Finley McIlwaine
+// W#: 08133841
 // COSC3020 Professor Kotthoff
 // Assignment 3
 // 5/3/2019
 
 // PROBLEM 1 IMPLEMENTATION
-// Dynamic Held-Karp using memoization
+// Dynamic Held-Karp using memoization.
 
 /**
  * Returns the shortest found path from start node to visit all other
@@ -94,6 +95,7 @@ function getMinEdge(g, costs, set, i, j) {
   for (let i = 0; i < costs[set.size - 1].length; i++) {
     // Loop over sub-problem results
     costs[set.size - 1][i].forEach((cost, toVert) => {
+
       // Make sure the subproblem is valid for current problem:
       //     - Our current 'via' set contains the target node of subproblem.
       //     - The subproblem 'via' set is a subset of current set.
