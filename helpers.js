@@ -91,8 +91,8 @@ function generateGreedyPath(g, start) {
  * @param {*} result Array holding path and cost
  */
 function printResult(result) {
-  console.log("Min. path: " + result[0].join(' -> '));
-  console.log("Min. cost: " + result[1]);
+  console.log("     Min. path: " + result[0].join(' -> '));
+  console.log("     Min. cost: " + result[1]);
 }
 
 module.exports = {
