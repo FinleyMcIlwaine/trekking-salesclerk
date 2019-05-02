@@ -86,7 +86,7 @@ const MAX_TO    = 200;
 
 //mainTest(NUM_ITERS, MIN_SIZE, MAX_HK, MAX_TO);
 
-let t1, t2, g, size;
+let t1 = 0, t2 = 0, g, size;
 for (size = 100; (t1 - t2)/1000 < 3600; size = size + 100) {
   g = generateRandomGraph(size,9,1);
   console.log("\nSize = " + size);
