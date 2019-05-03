@@ -1,0 +1,451 @@
+
+Testing graph: 
+
+Node 0  | 0 , 2 , 8 |
+Node 1  | 7 , 0 , 8 |
+Node 2  | 8 , 8 , 0 |
+
+With size 3 from start node 0...
+
+Held-Karp solution:
+     Min. path: 0 -> 1 -> 2
+     Min. cost: 10
+     Computed in 1 milliseconds! (0 seconds)
+
+2-opt solution:
+     Min. path: 0 -> 1 -> 2
+     Min. cost: 10
+     Computed in 0 milliseconds! (0 seconds)
+
+
+Testing graph: 
+
+Node 0  | 0 , 7 , 2 , 8 |
+Node 1  | 6 , 0 , 1 , 6 |
+Node 2  | 7 , 5 , 0 , 6 |
+Node 3  | 2 , 1 , 6 , 0 |
+
+With size 4 from start node 2...
+
+Held-Karp solution:
+     Min. path: 2 -> 1 -> 3 -> 0
+     Min. cost: 13
+     Computed in 1 milliseconds! (0 seconds)
+
+2-opt solution:
+     Min. path: 2 -> 3 -> 1 -> 0
+     Min. cost: 13
+     Computed in 0 milliseconds! (0 seconds)
+
+
+Testing graph: 
+
+Node 0  | 0 , 1 , 6 , 7 , 4 |
+Node 1  | 2 , 0 , 7 , 4 , 6 |
+Node 2  | 2 , 1 , 0 , 5 , 6 |
+Node 3  | 8 , 4 , 5 , 0 , 1 |
+Node 4  | 1 , 3 , 8 , 4 , 0 |
+
+With size 5 from start node 0...
+
+Held-Karp solution:
+     Min. path: 0 -> 2 -> 1 -> 3 -> 4
+     Min. cost: 12
+     Computed in 0 milliseconds! (0 seconds)
+
+2-opt solution:
+     Min. path: 0 -> 2 -> 1 -> 3 -> 4
+     Min. cost: 12
+     Computed in 1 milliseconds! (0 seconds)
+
+
+Testing graph: 
+
+Node 0  | 0 , 1 , 5 , 3 , 6 , 1 |
+Node 1  | 1 , 0 , 6 , 4 , 1 , 3 |
+Node 2  | 8 , 6 , 0 , 2 , 1 , 1 |
+Node 3  | 8 , 6 , 3 , 0 , 7 , 5 |
+Node 4  | 1 , 2 , 6 , 4 , 0 , 7 |
+Node 5  | 8 , 3 , 6 , 3 , 8 , 0 |
+
+With size 6 from start node 2...
+
+Held-Karp solution:
+     Min. path: 2 -> 4 -> 1 -> 0 -> 5 -> 3
+     Min. cost: 8
+     Computed in 1 milliseconds! (0 seconds)
+
+2-opt solution:
+     Min. path: 2 -> 4 -> 1 -> 0 -> 5 -> 3
+     Min. cost: 8
+     Computed in 1 milliseconds! (0 seconds)
+
+
+Testing graph: 
+
+Node 0  | 0 , 8 , 6 , 6 , 4 , 4 , 6 |
+Node 1  | 2 , 0 , 3 , 8 , 6 , 3 , 3 |
+Node 2  | 6 , 6 , 0 , 8 , 3 , 4 , 5 |
+Node 3  | 3 , 2 , 5 , 0 , 7 , 3 , 6 |
+Node 4  | 3 , 1 , 4 , 1 , 0 , 8 , 8 |
+Node 5  | 5 , 5 , 7 , 3 , 8 , 0 , 3 |
+Node 6  | 8 , 3 , 1 , 2 , 3 , 2 , 0 |
+
+With size 7 from start node 1...
+
+Held-Karp solution:
+     Min. path: 1 -> 0 -> 5 -> 6 -> 2 -> 4 -> 3
+     Min. cost: 14
+     Computed in 9 milliseconds! (0.01 seconds)
+
+2-opt solution:
+     Min. path: 1 -> 0 -> 5 -> 6 -> 2 -> 4 -> 3
+     Min. cost: 14
+     Computed in 1 milliseconds! (0 seconds)
+
+
+Testing graph: 
+
+Node 0  | 0 , 4 , 1 , 1 , 1 , 3 , 4 , 7 |
+Node 1  | 8 , 0 , 6 , 3 , 6 , 2 , 4 , 2 |
+Node 2  | 7 , 8 , 0 , 3 , 1 , 7 , 7 , 2 |
+Node 3  | 6 , 6 , 8 , 0 , 8 , 4 , 8 , 7 |
+Node 4  | 1 , 2 , 8 , 6 , 0 , 7 , 8 , 1 |
+Node 5  | 1 , 4 , 3 , 7 , 7 , 0 , 3 , 2 |
+Node 6  | 5 , 8 , 4 , 3 , 2 , 2 , 0 , 5 |
+Node 7  | 7 , 5 , 2 , 3 , 6 , 5 , 3 , 0 |
+
+With size 8 from start node 1...
+
+Held-Karp solution:
+     Min. path: 1 -> 5 -> 0 -> 2 -> 4 -> 7 -> 6 -> 3
+     Min. cost: 12
+     Computed in 11 milliseconds! (0.01 seconds)
+
+2-opt solution:
+     Min. path: 1 -> 5 -> 2 -> 7 -> 6 -> 4 -> 0 -> 3
+     Min. cost: 14
+     Computed in 3 milliseconds! (0 seconds)
+
+
+Testing graph: 
+
+Node 0  | 0 , 4 , 5 , 3 , 1 , 1 , 3 , 7 , 6 |
+Node 1  | 3 , 0 , 3 , 8 , 6 , 3 , 7 , 1 , 1 |
+Node 2  | 6 , 1 , 0 , 6 , 6 , 3 , 1 , 6 , 8 |
+Node 3  | 2 , 8 , 2 , 0 , 1 , 7 , 6 , 4 , 1 |
+Node 4  | 4 , 2 , 3 , 6 , 0 , 3 , 7 , 1 , 3 |
+Node 5  | 4 , 3 , 5 , 5 , 3 , 0 , 5 , 7 , 5 |
+Node 6  | 8 , 7 , 3 , 6 , 6 , 4 , 0 , 8 , 7 |
+Node 7  | 4 , 4 , 8 , 1 , 4 , 3 , 2 , 0 , 4 |
+Node 8  | 2 , 6 , 7 , 8 , 4 , 5 , 6 , 7 , 0 |
+
+With size 9 from start node 7...
+
+Held-Karp solution:
+     Min. path: 7 -> 3 -> 8 -> 0 -> 5 -> 4 -> 1 -> 2 -> 6
+     Min. cost: 14
+     Computed in 11 milliseconds! (0.01 seconds)
+
+2-opt solution:
+     Min. path: 7 -> 3 -> 2 -> 1 -> 8 -> 0 -> 4 -> 5 -> 6
+     Min. cost: 16
+     Computed in 4 milliseconds! (0 seconds)
+
+
+Testing graph: 
+
+Node 0  | 0 , 8 , 1 , 4 , 8 , 7 , 8 , 4 , 3 , 4 |
+Node 1  | 8 , 0 , 3 , 1 , 3 , 5 , 4 , 4 , 7 , 7 |
+Node 2  | 8 , 3 , 0 , 3 , 5 , 4 , 6 , 7 , 5 , 2 |
+Node 3  | 6 , 7 , 2 , 0 , 1 , 1 , 7 , 4 , 4 , 6 |
+Node 4  | 1 , 8 , 4 , 2 , 0 , 5 , 2 , 3 , 8 , 4 |
+Node 5  | 5 , 3 , 3 , 8 , 7 , 0 , 2 , 8 , 4 , 2 |
+Node 6  | 7 , 8 , 6 , 1 , 7 , 7 , 0 , 8 , 1 , 6 |
+Node 7  | 2 , 6 , 8 , 3 , 5 , 8 , 6 , 0 , 8 , 4 |
+Node 8  | 7 , 2 , 7 , 6 , 8 , 5 , 1 , 4 , 0 , 1 |
+Node 9  | 4 , 8 , 1 , 5 , 4 , 2 , 7 , 5 , 1 , 0 |
+
+With size 10 from start node 1...
+
+Held-Karp solution:
+     Min. path: 1 -> 4 -> 7 -> 0 -> 2 -> 9 -> 8 -> 6 -> 3 -> 5
+     Min. cost: 15
+     Computed in 53 milliseconds! (0.05 seconds)
+
+2-opt solution:
+     Min. path: 1 -> 4 -> 0 -> 7 -> 3 -> 5 -> 6 -> 8 -> 9 -> 2
+     Min. cost: 17
+     Computed in 4 milliseconds! (0 seconds)
+
+
+Testing graph: 
+
+Node 0  | 0 , 3 , 8 , 6 , 6 , 6 , 1 , 8 , 8 , 1 , 6 |
+Node 1  | 2 , 0 , 5 , 4 , 2 , 1 , 8 , 2 , 7 , 2 , 1 |
+Node 2  | 1 , 6 , 0 , 2 , 5 , 8 , 1 , 3 , 7 , 1 , 4 |
+Node 3  | 2 , 1 , 6 , 0 , 7 , 3 , 8 , 3 , 1 , 4 , 3 |
+Node 4  | 4 , 1 , 8 , 7 , 0 , 1 , 3 , 1 , 5 , 6 , 6 |
+Node 5  | 6 , 2 , 7 , 3 , 6 , 0 , 7 , 1 , 8 , 7 , 7 |
+Node 6  | 6 , 2 , 2 , 6 , 7 , 2 , 0 , 5 , 3 , 6 , 4 |
+Node 7  | 4 , 1 , 7 , 5 , 3 , 3 , 5 , 0 , 5 , 1 , 2 |
+Node 8  | 3 , 5 , 6 , 7 , 2 , 1 , 3 , 6 , 0 , 8 , 1 |
+Node 9  | 7 , 4 , 8 , 5 , 5 , 2 , 4 , 6 , 5 , 0 , 6 |
+Node 10 | 4 , 5 , 7 , 6 , 1 , 2 , 8 , 3 , 7 , 2 , 0 |
+
+With size 11 from start node 4...
+
+Held-Karp solution:
+     Min. path: 4 -> 1 -> 0 -> 6 -> 2 -> 3 -> 8 -> 10 -> 5 -> 7 -> 9
+     Min. cost: 14
+     Computed in 216 milliseconds! (0.22 seconds)
+
+2-opt solution:
+     Min. path: 4 -> 7 -> 2 -> 6 -> 8 -> 10 -> 9 -> 5 -> 3 -> 1 -> 0
+     Min. cost: 23
+     Computed in 0 milliseconds! (0 seconds)
+
+
+Testing graph: 
+
+Node 0  | 0 , 1 , 6 , 4 , 6 , 4 , 5 , 4 , 8 , 4 , 4 , 1 |
+Node 1  | 6 , 0 , 5 , 8 , 2 , 3 , 8 , 8 , 3 , 3 , 1 , 2 |
+Node 2  | 2 , 3 , 0 , 7 , 3 , 6 , 7 , 3 , 5 , 6 , 6 , 1 |
+Node 3  | 5 , 4 , 1 , 0 , 2 , 1 , 2 , 2 , 1 , 4 , 6 , 4 |
+Node 4  | 7 , 6 , 4 , 8 , 0 , 3 , 7 , 2 , 5 , 6 , 7 , 2 |
+Node 5  | 2 , 5 , 1 , 4 , 7 , 0 , 6 , 4 , 8 , 8 , 2 , 6 |
+Node 6  | 4 , 4 , 8 , 4 , 2 , 7 , 0 , 8 , 2 , 1 , 2 , 4 |
+Node 7  | 1 , 2 , 1 , 4 , 1 , 3 , 7 , 0 , 2 , 8 , 2 , 3 |
+Node 8  | 7 , 5 , 3 , 2 , 1 , 8 , 6 , 2 , 0 , 3 , 7 , 6 |
+Node 9  | 5 , 3 , 7 , 2 , 8 , 5 , 8 , 5 , 5 , 0 , 1 , 1 |
+Node 10 | 4 , 7 , 6 , 7 , 1 , 7 , 6 , 2 , 1 , 8 , 0 , 1 |
+Node 11 | 2 , 2 , 7 , 3 , 4 , 3 , 4 , 3 , 8 , 8 , 5 , 0 |
+
+With size 12 from start node 10...
+
+Held-Karp solution:
+     Min. path: 10 -> 8 -> 4 -> 7 -> 0 -> 1 -> 5 -> 2 -> 11 -> 3 -> 6 -> 9
+     Min. cost: 17
+     Computed in 1 seconds!
+
+2-opt solution:
+     Min. path: 10 -> 8 -> 3 -> 5 -> 2 -> 1 -> 9 -> 11 -> 7 -> 0 -> 6 -> 4
+     Min. cost: 23
+     Computed in 0 milliseconds! (0 seconds)
+
+
+Testing graph: 
+
+Node 0  | 0 , 8 , 4 , 6 , 7 , 2 , 2 , 8 , 2 , 7 , 7 , 2 , 5 |
+Node 1  | 5 , 0 , 2 , 5 , 1 , 7 , 5 , 1 , 3 , 7 , 8 , 8 , 4 |
+Node 2  | 3 , 1 , 0 , 3 , 5 , 1 , 5 , 8 , 6 , 6 , 8 , 8 , 7 |
+Node 3  | 2 , 6 , 8 , 0 , 6 , 7 , 6 , 6 , 3 , 2 , 3 , 3 , 2 |
+Node 4  | 8 , 5 , 6 , 8 , 0 , 2 , 4 , 7 , 8 , 1 , 2 , 3 , 3 |
+Node 5  | 2 , 7 , 3 , 4 , 8 , 0 , 1 , 7 , 8 , 3 , 7 , 7 , 7 |
+Node 6  | 4 , 2 , 3 , 5 , 7 , 3 , 0 , 3 , 4 , 4 , 1 , 2 , 8 |
+Node 7  | 7 , 7 , 2 , 5 , 4 , 5 , 4 , 0 , 1 , 6 , 3 , 7 , 2 |
+Node 8  | 8 , 5 , 4 , 8 , 3 , 2 , 3 , 4 , 0 , 5 , 2 , 4 , 4 |
+Node 9  | 6 , 2 , 5 , 6 , 5 , 5 , 3 , 7 , 7 , 0 , 2 , 5 , 6 |
+Node 10 | 5 , 2 , 6 , 8 , 6 , 4 , 5 , 2 , 6 , 4 , 0 , 8 , 8 |
+Node 11 | 6 , 7 , 4 , 3 , 7 , 6 , 1 , 4 , 1 , 1 , 7 , 0 , 2 |
+Node 12 | 1 , 8 , 5 , 4 , 6 , 6 , 4 , 2 , 2 , 8 , 8 , 2 , 0 |
+
+With size 13 from start node 1...
+
+Held-Karp solution:
+     Min. path: 1 -> 4 -> 9 -> 10 -> 7 -> 2 -> 5 -> 6 -> 11 -> 3 -> 12 -> 0 -> 8
+     Min. cost: 20
+     Computed in 5.35 seconds!
+
+2-opt solution:
+     Min. path: 1 -> 2 -> 3 -> 8 -> 4 -> 10 -> 7 -> 12 -> 0 -> 5 -> 6 -> 11 -> 9
+     Min. cost: 24
+     Computed in 0 milliseconds! (0 seconds)
+
+
+Testing graph: 
+
+Node 0  | 0 , 4 , 2 , 3 , 3 , 4 , 8 , 8 , 5 , 3 , 6 , 2 , 2 , 3 |
+Node 1  | 4 , 0 , 5 , 8 , 2 , 1 , 6 , 3 , 1 , 8 , 3 , 2 , 7 , 6 |
+Node 2  | 5 , 4 , 0 , 1 , 8 , 3 , 7 , 7 , 3 , 1 , 4 , 7 , 7 , 5 |
+Node 3  | 6 , 4 , 7 , 0 , 7 , 4 , 3 , 8 , 5 , 1 , 4 , 3 , 7 , 8 |
+Node 4  | 6 , 4 , 7 , 7 , 0 , 1 , 8 , 8 , 6 , 3 , 1 , 8 , 4 , 1 |
+Node 5  | 3 , 1 , 6 , 8 , 2 , 0 , 4 , 3 , 7 , 3 , 2 , 5 , 5 , 4 |
+Node 6  | 3 , 8 , 8 , 2 , 3 , 8 , 0 , 6 , 5 , 3 , 4 , 6 , 6 , 7 |
+Node 7  | 7 , 2 , 3 , 8 , 5 , 4 , 7 , 0 , 6 , 2 , 2 , 8 , 5 , 3 |
+Node 8  | 3 , 2 , 2 , 3 , 5 , 4 , 8 , 7 , 0 , 1 , 1 , 5 , 6 , 5 |
+Node 9  | 4 , 1 , 5 , 2 , 2 , 6 , 2 , 4 , 3 , 0 , 7 , 7 , 1 , 2 |
+Node 10 | 7 , 4 , 1 , 4 , 6 , 5 , 6 , 1 , 2 , 8 , 0 , 3 , 8 , 6 |
+Node 11 | 3 , 5 , 6 , 6 , 5 , 6 , 1 , 7 , 4 , 5 , 3 , 0 , 6 , 7 |
+Node 12 | 3 , 4 , 4 , 1 , 7 , 5 , 1 , 7 , 5 , 2 , 7 , 6 , 0 , 7 |
+Node 13 | 7 , 5 , 6 , 3 , 7 , 4 , 5 , 1 , 8 , 4 , 4 , 4 , 8 , 0 |
+
+With size 14 from start node 6...
+
+Held-Karp solution:
+     Min. path: 6 -> 4 -> 5 -> 1 -> 8 -> 10 -> 2 -> 9 -> 12 -> 3 -> 11 -> 0 -> 13 -> 7
+     Min. cost: 21
+     Computed in 26.18 seconds!
+
+2-opt solution:
+     Min. path: 6 -> 3 -> 9 -> 12 -> 0 -> 11 -> 10 -> 7 -> 1 -> 8 -> 2 -> 5 -> 4 -> 13
+     Min. cost: 24
+     Computed in 0 milliseconds! (0 seconds)
+
+
+Testing graph: 
+
+Node 0  | 0 , 1 , 3 , 2 , 5 , 6 , 5 , 8 , 5 , 1 , 3 , 4 , 6 , 3 , 5 |
+Node 1  | 7 , 0 , 4 , 5 , 5 , 7 , 3 , 8 , 5 , 7 , 5 , 4 , 3 , 5 , 2 |
+Node 2  | 3 , 5 , 0 , 8 , 8 , 1 , 7 , 2 , 6 , 1 , 6 , 7 , 7 , 4 , 2 |
+Node 3  | 6 , 2 , 2 , 0 , 4 , 5 , 1 , 2 , 3 , 2 , 1 , 1 , 7 , 5 , 8 |
+Node 4  | 7 , 4 , 6 , 3 , 0 , 6 , 2 , 1 , 3 , 4 , 8 , 2 , 6 , 2 , 4 |
+Node 5  | 4 , 6 , 7 , 3 , 4 , 0 , 2 , 8 , 4 , 5 , 4 , 4 , 2 , 7 , 6 |
+Node 6  | 2 , 8 , 3 , 3 , 8 , 7 , 0 , 4 , 5 , 8 , 5 , 8 , 5 , 7 , 8 |
+Node 7  | 2 , 4 , 4 , 2 , 6 , 1 , 7 , 0 , 2 , 8 , 7 , 5 , 7 , 4 , 1 |
+Node 8  | 2 , 8 , 7 , 4 , 1 , 6 , 3 , 3 , 0 , 4 , 2 , 8 , 2 , 2 , 2 |
+Node 9  | 1 , 4 , 5 , 8 , 8 , 6 , 5 , 1 , 8 , 0 , 7 , 8 , 4 , 7 , 3 |
+Node 10 | 3 , 7 , 4 , 3 , 2 , 2 , 7 , 4 , 2 , 7 , 0 , 7 , 2 , 7 , 4 |
+Node 11 | 7 , 2 , 4 , 4 , 5 , 6 , 7 , 6 , 2 , 8 , 4 , 0 , 4 , 5 , 7 |
+Node 12 | 4 , 7 , 8 , 6 , 4 , 2 , 5 , 1 , 2 , 6 , 8 , 1 , 0 , 7 , 7 |
+Node 13 | 3 , 4 , 5 , 1 , 6 , 6 , 1 , 1 , 3 , 7 , 8 , 7 , 1 , 0 , 8 |
+Node 14 | 8 , 7 , 1 , 1 , 5 , 7 , 3 , 3 , 1 , 5 , 5 , 3 , 6 , 2 , 0 |
+
+With size 15 from start node 13...
+
+Held-Karp solution:
+     Min. path: 13 -> 12 -> 11 -> 8 -> 4 -> 7 -> 5 -> 6 -> 2 -> 9 -> 0 -> 1 -> 14 -> 3 -> 10
+     Min. cost: 19
+     Computed in 1.85 minutes! (111.02 seconds)
+
+2-opt solution:
+     Min. path: 13 -> 12 -> 5 -> 4 -> 7 -> 3 -> 11 -> 8 -> 10 -> 0 -> 9 -> 14 -> 2 -> 1 -> 6
+     Min. cost: 31
+     Computed in 3 milliseconds! (0 seconds)
+
+
+Testing graph: 
+
+Node 0  | 0 , 2 , 7 , 5 , 5 , 6 , 6 , 1 , 2 , 4 , 7 , 2 , 7 , 1 , 7 , 1 |
+Node 1  | 1 , 0 , 1 , 1 , 6 , 4 , 2 , 7 , 1 , 6 , 7 , 3 , 3 , 7 , 4 , 1 |
+Node 2  | 8 , 2 , 0 , 6 , 1 , 8 , 1 , 3 , 5 , 2 , 1 , 1 , 2 , 6 , 5 , 2 |
+Node 3  | 5 , 5 , 5 , 0 , 5 , 6 , 2 , 2 , 3 , 4 , 4 , 2 , 8 , 3 , 6 , 7 |
+Node 4  | 6 , 5 , 7 , 8 , 0 , 3 , 8 , 8 , 6 , 7 , 1 , 6 , 4 , 2 , 8 , 8 |
+Node 5  | 3 , 3 , 5 , 5 , 8 , 0 , 6 , 5 , 1 , 6 , 8 , 2 , 3 , 8 , 6 , 8 |
+Node 6  | 5 , 3 , 4 , 4 , 7 , 2 , 0 , 8 , 8 , 2 , 7 , 2 , 3 , 1 , 6 , 6 |
+Node 7  | 6 , 2 , 5 , 8 , 7 , 6 , 2 , 0 , 4 , 6 , 7 , 8 , 5 , 1 , 5 , 1 |
+Node 8  | 3 , 8 , 2 , 2 , 7 , 8 , 1 , 5 , 0 , 6 , 8 , 7 , 1 , 3 , 7 , 2 |
+Node 9  | 1 , 2 , 5 , 4 , 3 , 1 , 6 , 5 , 3 , 0 , 8 , 8 , 2 , 4 , 7 , 7 |
+Node 10 | 5 , 7 , 5 , 4 , 5 , 7 , 2 , 7 , 4 , 8 , 0 , 2 , 7 , 5 , 2 , 4 |
+Node 11 | 1 , 7 , 8 , 5 , 8 , 2 , 3 , 4 , 5 , 7 , 8 , 0 , 2 , 8 , 2 , 1 |
+Node 12 | 3 , 1 , 1 , 8 , 4 , 7 , 5 , 1 , 1 , 6 , 6 , 4 , 0 , 6 , 1 , 8 |
+Node 13 | 3 , 8 , 1 , 3 , 3 , 3 , 4 , 8 , 3 , 2 , 3 , 3 , 2 , 0 , 1 , 2 |
+Node 14 | 3 , 4 , 6 , 6 , 4 , 6 , 4 , 3 , 6 , 1 , 4 , 3 , 4 , 8 , 0 , 8 |
+Node 15 | 4 , 5 , 4 , 6 , 6 , 4 , 6 , 6 , 6 , 3 , 8 , 6 , 2 , 4 , 7 , 0 |
+
+With size 16 from start node 11...
+
+Held-Karp solution:
+     Min. path: 11 -> 5 -> 8 -> 12 -> 1 -> 3 -> 6 -> 13 -> 2 -> 4 -> 10 -> 14 -> 9 -> 0 -> 7 -> 15
+     Min. cost: 18
+     Computed in 8.36 minutes! (501.57 seconds)
+
+2-opt solution:
+     Min. path: 11 -> 0 -> 4 -> 10 -> 15 -> 9 -> 7 -> 1 -> 3 -> 6 -> 13 -> 5 -> 8 -> 2 -> 12 -> 14
+     Min. cost: 34
+     Computed in 5 milliseconds! (0.01 seconds)
+
+
+Testing graph: 
+
+Node 0  | 0 , 1 , 1 , 7 , 5 , 2 , 5 , 7 , 6 , 6 , 1 , 8 , 1 , 4 , 4 , 1 , 7 |
+Node 1  | 8 , 0 , 5 , 1 , 2 , 5 , 3 , 3 , 2 , 2 , 2 , 3 , 8 , 3 , 8 , 7 , 3 |
+Node 2  | 3 , 2 , 0 , 4 , 8 , 3 , 2 , 5 , 2 , 4 , 8 , 1 , 6 , 6 , 8 , 3 , 5 |
+Node 3  | 6 , 8 , 8 , 0 , 1 , 8 , 5 , 3 , 8 , 4 , 5 , 1 , 5 , 3 , 5 , 3 , 8 |
+Node 4  | 8 , 2 , 7 , 3 , 0 , 1 , 7 , 4 , 3 , 6 , 1 , 8 , 1 , 3 , 4 , 2 , 5 |
+Node 5  | 2 , 7 , 8 , 8 , 4 , 0 , 4 , 3 , 2 , 7 , 6 , 8 , 3 , 6 , 1 , 1 , 1 |
+Node 6  | 8 , 2 , 7 , 6 , 6 , 7 , 0 , 4 , 2 , 8 , 1 , 1 , 7 , 4 , 1 , 5 , 3 |
+Node 7  | 7 , 4 , 6 , 2 , 2 , 1 , 2 , 0 , 2 , 8 , 5 , 8 , 5 , 7 , 7 , 8 , 7 |
+Node 8  | 4 , 8 , 4 , 7 , 1 , 5 , 8 , 3 , 0 , 7 , 1 , 8 , 4 , 2 , 3 , 8 , 6 |
+Node 9  | 2 , 1 , 7 , 7 , 1 , 7 , 7 , 7 , 6 , 0 , 6 , 3 , 2 , 5 , 5 , 3 , 6 |
+Node 10 | 2 , 4 , 5 , 6 , 6 , 1 , 2 , 5 , 3 , 4 , 0 , 4 , 1 , 8 , 7 , 2 , 6 |
+Node 11 | 8 , 8 , 5 , 6 , 6 , 6 , 1 , 6 , 6 , 7 , 6 , 0 , 2 , 5 , 2 , 2 , 7 |
+Node 12 | 7 , 3 , 7 , 1 , 1 , 2 , 2 , 4 , 5 , 8 , 2 , 4 , 0 , 8 , 2 , 3 , 1 |
+Node 13 | 8 , 6 , 2 , 6 , 8 , 7 , 5 , 3 , 8 , 4 , 1 , 2 , 4 , 0 , 3 , 4 , 3 |
+Node 14 | 8 , 8 , 2 , 3 , 8 , 1 , 7 , 3 , 2 , 4 , 3 , 6 , 6 , 6 , 0 , 5 , 4 |
+Node 15 | 7 , 1 , 5 , 7 , 1 , 1 , 6 , 2 , 7 , 1 , 8 , 3 , 8 , 3 , 5 , 0 , 7 |
+Node 16 | 6 , 6 , 1 , 5 , 8 , 1 , 3 , 2 , 7 , 4 , 1 , 2 , 8 , 6 , 3 , 6 , 0 |
+
+With size 17 from start node 0...
+
+Held-Karp solution:
+     Min. path: 0 -> 2 -> 11 -> 6 -> 14 -> 8 -> 13 -> 10 -> 12 -> 16 -> 7 -> 5 -> 15 -> 9 -> 1 -> 3 -> 4
+     Min. cost: 19
+     Computed in 48.17 minutes! (2890.44 seconds)
+
+2-opt solution:
+     Min. path: 0 -> 2 -> 5 -> 14 -> 8 -> 4 -> 3 -> 11 -> 6 -> 16 -> 10 -> 12 -> 15 -> 9 -> 1 -> 13 -> 7
+     Min. cost: 29
+     Computed in 20 milliseconds! (0.02 seconds)
+
+
+Testing graph of size 18...
+
+Held-Karp solution:
+     Min. path: 11 -> 10 -> 17 -> 3 -> 2 -> 0 -> 13 -> 9 -> 1 -> 4 -> 8 -> 5 -> 16 -> 12 -> 14 -> 6 -> 7 -> 15
+     Min. cost: 20
+     Computed in 276.04 minutes! (16562.39 seconds)
+
+2-opt solution:
+     Min. path: 11 -> 4 -> 8 -> 17 -> 9 -> 1 -> 14 -> 6 -> 7 -> 3 -> 2 -> 0 -> 13 -> 10 -> 5 -> 16 -> 12 -> 15
+     Min. cost: 30
+     Computed in 8 milliseconds! (0.01 seconds)
+
+
+Testing graph of size 118...
+
+2-opt solution:
+     Min. path: Too long to print!
+     Min. cost: 228
+     Computed in 4.9 seconds!
+
+
+Testing graph of size 218...
+
+2-opt solution:
+     Min. path: Too long to print!
+     Min. cost: 443
+     Computed in 56.73 seconds!
+
+
+Testing graph of size 318...
+
+2-opt solution:
+     Min. path: Too long to print!
+     Min. cost: 637
+     Computed in 4.89 minutes! (293.68 seconds)
+
+
+Testing graph of size 418...
+
+2-opt solution:
+     Min. path: Too long to print!
+     Min. cost: 852
+     Computed in 17.42 minutes! (1045.12 seconds)
+
+
+Testing graph of size 518...
+
+2-opt solution:
+     Min. path: Too long to print!
+     Min. cost: 1046
+     Computed in 39.29 minutes! (2357.34 seconds)
+
+
+Testing graph of size 600...
+
+2-opt solution:
+     Min. path: Too long to print!
+     Min. cost: 1228
+     Computed in 79.62 minutes! (4777.07 seconds)
+
